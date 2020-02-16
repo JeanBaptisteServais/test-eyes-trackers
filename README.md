@@ -1,4 +1,4 @@
-# test-eyes-trackers
+# _apply_Tuto-eyes-trackers
 based on a pupil tracker, conda, dlib, cv2, model pre formed and tuto we try to detect the eye
 
 TUTO 1
