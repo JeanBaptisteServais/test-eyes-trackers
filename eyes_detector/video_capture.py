@@ -30,14 +30,16 @@ from recuperate_points.face_points import load_model_dlib
 #Resize video.
 from pre_test import search_video_size
 
+#Drawing into the video.
 from drawing.drawing import draw
+
 
 print("Import time : ", time.time() - start_time_import)
 
 
 
 
-video  = media_path.format("a.mp4")
+video  = media_path.format("aa.mp4")
 predictor, detector = load_model_dlib(dlib_model)
 
 video_size = search_video_size(video, predictor, detector, dlib_model)
@@ -83,8 +85,6 @@ while True:
         eyes_contours(landmarks, frame, right_eye[0], left_eye[0])
 
         draw(head_box, frame, right_eye, left_eye)
-
-
 
         print("No ", nb_frame, "run : ", time.time() - start_time_frame)
         nb_frame += 1

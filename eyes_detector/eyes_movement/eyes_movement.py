@@ -162,9 +162,7 @@ def eyes_contours(landmarks, frame, right_eye, left_eye):
     cv2.drawContours(frame, [eyes[0]], -1, (0, 0, 0), 1)
     cv2.drawContours(frame, [eyes[1]], -1, (0, 0, 0), 1)
 
-    print(right_eye)
-    print(left_eye)
-    print("")
+
 
 
         

@@ -1,4 +1,5 @@
 import cv2
+import numpy as np
 from math import hypot #hypot = sqrt((x2-x1)**2 + (y2-y1)**2)
 
 
@@ -68,25 +69,67 @@ def blinking_eyes(landmarks, face):
 
 
 blink_history = []
+time_history = [0]
+blink_frequency = []
+all_blink = []
+time = 0
 
-def blink_analysis(result, nb_frame, blinking_frame):
+def blink_analysis(result, nb_frame, blinking_frame, timmer):
 
-    global blink_history
+    global blink_history #Count frame closing beetween points.
+    global time_history  #blink timed.
+    global blink_frequency #all blink beetwen 60 sec.
+    global time #timmer count 60 sec.
 
-    if result != "":
+
+    out = ["", "", ""]
+
+    if result != "":    #Eyes blink.
         blink_history.append(nb_frame)
+        time_history.append(timmer)
+        blink_frequency.append(nb_frame)
+        all_blink.append(nb_frame)
 
+    #Duration of blink.
     if blinking_frame == 0 and len(blink_history) > 0:
         print("closed : ", len(blink_history),
               "from ", blink_history[0], "to ", blink_history[-1], "frames")
+
         blink_history = []
 
+    #Blnik frame > 6.
+    if result != "" and len(blink_history) >= 6: #application.
+        out[0] = "HE sleeps SEARCHING HOTEL in course."
+
+    #Blink > 15 less 60 sec.
+    if len(blink_frequency) > 15 and time < 6000:
+        out[1] = "clignement superieur a 15 ATTENTION"
+        blink_frequency = []
+
+
+    #60 sec timmer increment
+    time += timmer
+
+    #Each 60 sec report space mean blink.
+    if time >= 6000:
+
+        meaning = np.mean(time_history)
+        out[2] = "clignement moyenne de: " + str(meaning)
+        time_history = []
+        time = 0
+
+    return out
 
 
 
+def final():
 
+    global time_history  #blink timed.
+    global all_blink #all blink
 
+    meaning = np.mean(time_history)
+    
 
-
+    return ["clignement moyenne de: " + str(meaning), len(all_blink)]
 
 
