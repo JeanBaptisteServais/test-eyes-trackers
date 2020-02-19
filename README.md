@@ -10,6 +10,8 @@ based on a pupil tracker, conda, dlib, cv2, model pre formed and tuto we try to 
 
 Care you user need to be fix, no movement, eye visible, video frame resize for the application (explication bottom)
 
+And care we need to register in part because we write for send 20 sec parts of video. CARE this is just a memo not a real explication.
+
 <strong> Tutorials : </strong>
 
 TUTO 1
