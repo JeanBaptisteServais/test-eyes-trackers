@@ -1,4 +1,7 @@
 # _apply_from_Tuto-eyes-trackers
+
+Care you user need to be fix, no movement, eye visible, video frame resize (explication bottom)
+
 based on a pupil tracker, conda, dlib, cv2, model pre formed and tuto we try to detect the eye
 
 <strong> 2 applications: First's </strong> pupil tracker (live), <strong>Second part</strong> of our eyes tracker (video register, cause distant serveur)
