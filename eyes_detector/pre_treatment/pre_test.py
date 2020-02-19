@@ -48,8 +48,8 @@ def resizer(frame, predictor, detector):
                 head = get_face_in_box(landmarks)   #Box the face.
                 x, y, w, h = head   #Recuperate the square box face.
                 #print(w, y, video_division) #Display dimension
-
-                if w <= 93: #We exceed 93 width pixels.
+                print(w, video_division)
+                if w <= 170: #We exceed 93 width pixels.
                     find = True #Condition for stop loop from main.
                     ocontinue = False #Condition for stop the current loop.
 

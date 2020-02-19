@@ -27,8 +27,10 @@ def parametrages(video, number_divise):
     print("dimensions to resize : ", frame_width, frame_height)
 
     #Divise the frame by the number_divise.
-    frame_width  = int(frame_width / number_divise)
+    frame_width  = int(frame_width  / number_divise)
     frame_height = int(frame_height / number_divise)
+
+    print("resized : ", frame_width, frame_height)
 
     #return video, dimensions, informations videos.
     return cap, frame_width, frame_height, number_picture, frame_sec
@@ -51,7 +53,7 @@ def video_support(frame_width, frame_height, number_picture, frame_sec):
         #Create (number_picture / 1000) empties videos.
                                                                   #frame/sec original video
         out = cv2.VideoWriter(name, cv2.VideoWriter_fourcc('M','J','P','G'), int(frame_sec),
-                              (frame_width,frame_height))
+                              (frame_width, frame_height))
 
         dico_file[name] = out
 
@@ -110,4 +112,4 @@ def video_writter(video, number_divise):
 
 
 video  = media_path.format("aa.mp4")
-video_writter(video, 2.9999999999999973)
+video_writter(video, 1.6000000000000008)
