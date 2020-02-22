@@ -35,9 +35,9 @@ model 2
 
 <p align="center">
 
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/54853371/75084619-8319a880-5521-11ea-8e70-ca8256b25d4f.gif)
+  <img src="https://user-images.githubusercontent.com/54853371/75084619-8319a880-5521-11ea-8e70-ca8256b25d4f.gif">
 
-<img width="300" heigh="300" src="https://user-images.githubusercontent.com/54853371/75084989-bad61f80-5524-11ea-90b0-1f5f36ef3392.gif">
+  <img width="300" heigh="300" src="https://user-images.githubusercontent.com/54853371/75084989-bad61f80-5524-11ea-90b0-1f5f36ef3392.gif">
 
 </p>
 
