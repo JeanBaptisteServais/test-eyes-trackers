@@ -39,3 +39,5 @@ model 2
 ![video_jb](https://user-images.githubusercontent.com/54853371/75084438-62048800-5520-11ea-82dc-4b43ba9572de.gif)
 ![eyes_tracking1](https://user-images.githubusercontent.com/54853371/75084439-629d1e80-5520-11ea-8d3a-74f6ba269fd2.gif)
 ![eyes_tracking2](https://user-images.githubusercontent.com/54853371/75084440-63ce4b80-5520-11ea-8519-b6e6c347413d.gif)
+
+eye tracker isn't precise and the user need to be fixe from the begening (the current gif isn't precise but it's my better face from all other video's i let u imagine !)
