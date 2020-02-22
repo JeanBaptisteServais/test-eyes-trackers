@@ -33,10 +33,13 @@ model 1
 model 2
 
 
+<p align="center">
 
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/54853371/75084619-8319a880-5521-11ea-8e70-ca8256b25d4f.gif)
 
 <img width="300" heigh="300" src="https://user-images.githubusercontent.com/54853371/75084989-bad61f80-5524-11ea-90b0-1f5f36ef3392.gif">
+
+</p>
 
 ![eyes_tracking1](https://user-images.githubusercontent.com/54853371/75084439-629d1e80-5520-11ea-8d3a-74f6ba269fd2.gif)
 ![eyes_tracking2](https://user-images.githubusercontent.com/54853371/75084440-63ce4b80-5520-11ea-8519-b6e6c347413d.gif)
