@@ -13,6 +13,8 @@ Care you user need to be fix, no movement, eye visible, video frame resize for t
 And care we need to register in part because we write for send 20 sec parts of video. CARE this is just a memo not a real explication.
 could be improve with ml with points on the blanck picture
 
+Using DLIB
+
 
 <strong> Tutorials : </strong>
 
