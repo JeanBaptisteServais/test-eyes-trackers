@@ -76,8 +76,8 @@ def recuperate_eyes_position(video, height, width):
 
         if ret:
 
-            b, a = frame.shape[:2]
-            frame = cv2.resize(frame, (int(a /   0.8500000000000002), int(b /   0.8500000000000002)))#g 0.8500000000000002
+            #b, a = frame.shape[:2]
+            #frame = cv2.resize(frame, (int(a /   0.8500000000000002), int(b /   0.8500000000000002)))#g 0.8500000000000002
 
             #Gray threshold.
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -122,6 +122,7 @@ def recuperate_eyes_position(video, height, width):
 
 
 def run_data():
+    """You can raise it !"""
 
     #Search video written from last operation and put it into a list.
     start_time_data_list = time.time()
