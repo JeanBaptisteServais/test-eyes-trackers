@@ -36,7 +36,7 @@ model 2
 
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/54853371/75084619-8319a880-5521-11ea-8e70-ca8256b25d4f.gif)
 
-![video_jb](https://user-images.githubusercontent.com/54853371/75084438-62048800-5520-11ea-82dc-4b43ba9572de.gif)
+
 ![eyes_tracking1](https://user-images.githubusercontent.com/54853371/75084439-629d1e80-5520-11ea-8d3a-74f6ba269fd2.gif)
 ![eyes_tracking2](https://user-images.githubusercontent.com/54853371/75084440-63ce4b80-5520-11ea-8519-b6e6c347413d.gif)
 
